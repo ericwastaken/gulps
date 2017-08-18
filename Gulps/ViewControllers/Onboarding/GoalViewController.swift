@@ -27,7 +27,7 @@ class GoalViewController: OnboardingViewController, UITextFieldDelegate {
 
     var goal = 0.0
     if let number = numberFormatter.number(from: text) {
-      goal = number as Double
+      goal = number as! Double
     }
 
     self.userDefaults.set(goal, forKey: Constants.Gulp.goal.key())

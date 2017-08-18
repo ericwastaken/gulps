@@ -35,11 +35,11 @@ class GulpsViewController: OnboardingViewController, UITextFieldDelegate {
     var small = 0.0
     var big = 0.0
     if let number = numberFormatter.number(from: self.smallGulpText.text ?? "0") {
-      small = number as Double
+      small = number as! Double
     }
 
     if let number = numberFormatter.number(from: self.bigGulpText.text ?? "0") {
-      big = number as Double
+      big = number as! Double
     }
 
     self.userDefaults.set(small, forKey: Constants.Gulp.small.key())
