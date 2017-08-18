@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.it.fancypixel.BigGulp</string>
+		<string>group.net.ericsoto.BigGulp</string>
 	</array>
 </dict>
 </plist>
